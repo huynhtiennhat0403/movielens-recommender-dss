@@ -1,0 +1,11 @@
+{
+  "model": "MF",
+  "status": "ready_to_train",
+  "protocol": "implicit_all_ratings",
+  "train_negatives": 4,
+  "evaluation_negatives": 100,
+  "batch_size_search": [128, 256, 512, 1024],
+  "learning_rate_search": [0.0001, 0.0005, 0.001, 0.005],
+  "seed": 42,
+  "device": "auto"
+}

@@ -1,0 +1,18 @@
+{
+  "model": "NCF",
+  "status": "ready_to_train",
+  "predictive_factors": [8, 16, 32, 64],
+  "selected_predictive_factor": 16,
+  "alpha": 0.5,
+  "pretraining_optimizer": "Adam",
+  "finetuning_optimizer": "SGD",
+  "protocol": "implicit_all_ratings",
+  "train_negatives": 4,
+  "evaluation_negatives": 100,
+  "batch_size_search": [128, 256, 512, 1024],
+  "selected_learning_rate": 0.005,
+  "learning_rate_search": [0.0001, 0.0005, 0.001, 0.005],
+  "patience": 10,
+  "seed": 42,
+  "device": "auto"
+}

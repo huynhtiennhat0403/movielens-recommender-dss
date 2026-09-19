@@ -1,0 +1,18 @@
+{
+  "status": "pipeline_ready",
+  "comparison": ["MF", "NCF"],
+  "evaluation": "1 positive + 100 sampled unobserved negatives",
+  "metrics": ["HR@5", "HR@10", "HR@20", "NDCG@5", "NDCG@10", "NDCG@20"],
+  "headline_metrics": ["HR@10", "NDCG@10"],
+  "candidate_files": {
+    "validation": "data/processed/validation_candidates_100neg.csv",
+    "test": "data/processed/test_candidates_100neg.csv"
+  },
+  "split": {
+    "eligible_users": 6040,
+    "train_interactions": 988129,
+    "validation_interactions": 6040,
+    "test_interactions": 6040,
+    "test_cold_start_items": 2
+  }
+}

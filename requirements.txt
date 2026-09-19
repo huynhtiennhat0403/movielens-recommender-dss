@@ -26,3 +26,6 @@ python-dotenv>=1.0.0
 # --- 6. Visualization (Hỗ trợ inline trong Notebook) ---
 matplotlib>=3.8.0
 seaborn>=0.13.0
+
+# --- 7. Deep learning ---
+torch>=2.2.0

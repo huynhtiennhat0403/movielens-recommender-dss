@@ -1,0 +1,1 @@
+model,predictive_factor,embedding_dim,layers,learning_rate,batch_size,best_epoch,val_hr10,val_ndcg10,val_loss

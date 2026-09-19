@@ -1,0 +1,9 @@
+{
+  "model": "GMF",
+  "predictive_factor": 16,
+  "optimizer": "Adam",
+  "train_negatives": 4,
+  "seed": 42,
+  "patience": 10,
+  "status": "ready_to_train"
+}
